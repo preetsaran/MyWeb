@@ -1,6 +1,6 @@
 
 const server=require("./api.js");
-const port=process.env||3000;
+const port=process.env.PORT||3000;
 server.listen(port,function(){
     console.log("server is listening at port 3000")
 })
