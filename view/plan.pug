@@ -1,0 +1,20 @@
+.signup-child
+    .signup-header
+        h3 #{plan.name}
+        .signup-pricing
+            span $ #{plan.price}
+            | /month
+            p #{plan.description}
+    .signup-features
+        ul
+            li
+                i.fas.fa-check-circle  
+                | Ratings: #{ plan.averageratings}
+            li
+                i.fas.fa-check-circle  
+                | Order 24/7
+            li
+                i.fas.fa-check-circle  
+                | Free delivery
+        .signup-button
+           button.btn.btn-full(plan-id=`${plan["_id"]}`) I'm hungry

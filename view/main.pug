@@ -1,0 +1,143 @@
+section.features
+  h2 GET FOOD FAST - NOT FAST FOOD
+  p.heading-section
+    | Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
+    br
+    | busy. No time for cooking.
+    |              So let us take care of that, we’re really good at it, we promise!
+  .container-parent
+    .container
+      i.fas.fa-shipping-fast.icons
+      h3 UP TO 365 DAYS/YEAR
+      p.para
+        | Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+    .container
+      i.far.fa-calendar-plus.icons
+      h3 READY IN 20 MINUTES
+      p.para
+        | You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+    .container
+      i.fas.fa-carrot.icons
+      h3 100% ORGANIC
+      p.para
+        | All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+    .container
+      i.fas.fa-boxes.icons
+      h3 ORDER ANYTHING
+      p.para
+        | We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you
+section.download
+  h2 HOW IT WORKS — SIMPLE AS 1, 2, 3
+  .store
+    img.iphone(src='../img/iphone.png', alt='fail to load image', height='450')
+    .steps-all
+      .steps.clearfix
+        .step-val 1
+        p.step-para
+          | Choose the subscription plan that best fits your needs and sign up today.
+      .steps.clearfix
+        .step-val 2
+        p.step-para
+          | Order your delicious meal using our mobile app or website. Or you can even call us!
+      .steps.clearfix
+        .step-val 3
+        p.step-para
+          | Enjoy your meal after less than 20 minutes. See you the next time!
+      .options
+        img.p-store(src='../img/download-app-android.png', alt='fail to load image', height='50')
+        img.i-store(src='../img/iphone.jpeg', alt='fail to load image', height='50')
+section.city
+  h2 WE'RE CURRENTLY IN THESE CITIES
+  .locPic
+    .city-1
+      img.cityPic(src='../img/lisbon-3.jpg', alt='fail to load image', height='200', width='250')
+      h3.h3-city lisbon
+      p.icon
+        i.fas.fa-user
+        | 1600+happy eaters
+      p.icon
+        i.fas.fa-chess-queen
+        | 60+ top chefs
+      p.address
+        i.fab.fa-twitter
+        | @omnifood_lx
+    .city-2
+      img.cityPic(src='../img/berlin.jpg', alt='fail to load image', height='200', width='250')
+      h3.h3-city berlin
+      p.icon
+        i.fas.fa-user
+        | 1600+happy eaters
+      p.icon
+        i.fas.fa-chess-queen
+        | 60+ top chefs
+      p.address
+        i.fab.fa-twitter
+        | @omnifood_lx
+    .city-3
+      img.cityPic(src='../img/london.jpg', alt='fail to load image', height='200', width='250')
+      h3.h3-city london
+      p.icon
+        i.fas.fa-user
+        | 1600+happy eaters
+      p.icon
+        i.fas.fa-chess-queen
+        | 60+ top chefs
+      p.address
+        i.fab.fa-twitter
+        | @omnifood_lx
+    .city-4
+      img.cityPic(src='../img/san-francisco.jpg', alt='fail to load image', height='200', width='250')
+      h3.h3-city san-francisco
+      p.icon
+        i.fas.fa-chess-queen
+        | 1600+happy eaters
+      p.icon
+        i.fas.fa-user
+        | 60+ top chefs
+      p.address
+        i.fab.fa-twitter
+        | @omnifood_lx
+  .middle
+    h2 OUR CUSTOMERS CAN'T LIVE WITHOUT US
+    .main_content
+      p.main-para
+        i
+          | Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+      img.Pic(src='../img/customer-1.jpg', alt='fail to load image', height='200', width='250')
+      p.main-para
+        i
+          | Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+      img.Pic(src='../img/customer-3.jpg', alt='fail to load image', height='200', width='250')
+      p.main-para
+        i
+          | Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+      img.Pic(src='../img/customer-3.jpg', alt='fail to load image', height='200', width='250')
+
+include planContainer
+h2 WE'RE HAPPY TO HEAR FROM YOU
+form
+  .outer
+    .labels
+      label(for='name') Name
+    input#name(type='text', placeholder='Your Name')
+  .outer
+    .labels
+      label(for='email') Email
+    input#email(type='email', placeholder='abc@gmail.com')
+  .outer
+    .labels
+      label(for='password') Password
+    input#password(type='password')
+  .outer
+    .labels
+      label How did you find us
+    select(name='options')
+      option(value='social') Social media
+      option(value='social') Friends
+      option(value='social') Advertisments
+  .outer
+    .labels
+      label(for='comment') Please drop A suggestion
+    textarea#comment(cols='30', rows='10')
+  .submit
+    a.btn.btn-full(href='') Submit
